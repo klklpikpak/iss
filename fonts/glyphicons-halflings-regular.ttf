@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="theme-color" content="#003300">
+	<meta name="msapplication-config" content="/icons/browserconfig.xml">
+	<meta name="msapplication-navbutton-color" content="#003300">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="mobile-web-app-capable" content="yes">
+	<base href="/" target="_self">
+	<link rel="shortcut icon" href="/icons/favicon.ico">
+	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+	<link rel="manifest" href="/icons/manifest.json">
+	<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" style="color:#5bbad5">
+	<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png">    
+	<link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png">
+	<meta property="article:author" content="https://www.facebook.com/robsonmartins.br/" />
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="/css/main.css">
+	<script>
+		var ROOT_URL="/";
+		var CURR_URL="/fonts/glyphicons-halflings-regular.ttf";
+		var VISITOR_API_URL="/api/visitor/";
+		var FREEPUBD_API_URL="/api/fpubd/";
+		var LANGUAGE="pt";
+		var IS_SAFARI_BROWSER = false;
+		try {
+			IS_SAFARI_BROWSER = (safari != undefined && typeof safari !== "undefined");
+		} catch(e){}
+		var IS_IN_IFRAME = (window.location !== window.parent.location);
+		
+		var LOCATION_HOST = window.location.href;
+		if (LOCATION_HOST.indexOf('https://') == 0){ 
+			LOCATION_HOST = LOCATION_HOST.substring(8);
+			if (LOCATION_HOST.indexOf('/') >= 0){
+				LOCATION_HOST = 
+					LOCATION_HOST.substring(0,LOCATION_HOST.indexOf('/'));
+			}
+			LOCATION_HOST = 'https://' + LOCATION_HOST;
+		} else if (LOCATION_HOST.indexOf('http://') == 0){
+			LOCATION_HOST = LOCATION_HOST.substring(7);
+			if (LOCATION_HOST.indexOf('/') >= 0){
+				LOCATION_HOST = 
+					LOCATION_HOST.substring(0,LOCATION_HOST.indexOf('/'));
+			}
+			LOCATION_HOST = 'http://' + LOCATION_HOST;
+		} else if (LOCATION_HOST.indexOf('/') == 0){ 
+			LOCATION_HOST = LOCATION_HOST.substring(1);
+			if (LOCATION_HOST.indexOf('/') >= 0){
+				LOCATION_HOST = 
+					LOCATION_HOST.substring(0,LOCATION_HOST.indexOf('/'));
+			}
+			LOCATION_HOST = '/' + LOCATION_HOST;
+		}
+	</script>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/js.cookie.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script data-ad-client="ca-pub-1797966110374904" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<title>Erro 404: P&aacute;gina n&atilde;o encontrada - Robson Martins</title>
+	<meta name="apple-mobile-web-app-title" content="Erro 404: P&aacute;gina n&atilde;o encontrada - Robson Martins">
+	<meta name="keywords" content="Error, Erro">
+	<meta name="description" content="Erro 404: P&aacute;gina n&atilde;o encontrada.">
+	<meta property="og:title" content="Erro 404: P&aacute;gina n&atilde;o encontrada - Robson Martins">
+	<meta property="og:type" content="article">
+	<meta property="og:description" content="Erro 404: P&aacute;gina n&atilde;o encontrada.">
+	<meta property="og:image" content="https://www.robsonmartins.com/images/error_thumb.png">
+	<meta property="og:url" content="https://www.robsonmartins.com/error/e404.php">
+	<meta name="twitter:card" content="summary_large_image">	
+</head>
+<body>
+	<header class="navbar navbar-default panel panel-default header-panel navbar-fixed-top"> 
+ 		<div class="container-fluid"> 
+ 			<div class="navbar-header"> 
+ 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false"> 
+ 					<span class="icon-bar">&nbsp;</span> 
+ 					<span class="icon-bar">&nbsp;</span> 
+ 					<span class="icon-bar">&nbsp;</span> 
+ 				</button> 
+ 				<div class="navbar-brand" style="padding:2px;padding-left:8px;margin:0px"> 
+ 					<a class="navbar-brand" style="padding:0px" href="/"> 
+ 						<img src="/images/logo.png" alt="Robson Martins" title="Robson Martins" height="48">
+ 					</a> 
+ 				</div> 
+ 			</div> 
+ 			<div class="collapse navbar-collapse" id="nav-menu"> 
+ 				<ul class="nav navbar-nav"> 
+ 					<li id="menu0" class="active"> 
+ 						<a target="_self" href="/"><img src="/images/home.png" title="In&iacute;cio" alt="In&iacute;cio" height="24">&nbsp;&nbsp;In&iacute;cio</a> 
+ 					</li> 
+ 					<li id="menu1" class=""> 
+ 						<a target="_self" href="/content/info"><img src="/images/info.png" title="Inform&aacute;tica" alt="Inform&aacute;tica" height="24">&nbsp;&nbsp;Inform&aacute;tica</a> 
+ 					</li> 
+ 					<li id="menu2" class=""> 
+ 						<a target="_self" href="/content/eletr"><img src="/images/eletr.png" title="Eletr&ocirc;nica" alt="Eletr&ocirc;nica" height="24">&nbsp;&nbsp;Eletr&ocirc;nica</a> 
+ 					</li> 
+ 					<li id="menu3" class=""> 
+ 						<a target="_self" href="/content/liter"><img src="/images/liter.png" title="Literatura" alt="Literatura" height="24">&nbsp;&nbsp;Literatura</a> 
+ 					</li> 
+ 					<li id="menu4" class=""> 
+ 						<a target="_self" href="/content/evang"><img src="/images/evang.png" title="Evangelho" alt="Evangelho" height="24">&nbsp;&nbsp;Evangelho</a> 
+ 					</li>
+ 				</ul>
+
+				<div id="google_translate_element"></div>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="javascript:changeLanguage('pt')" class="dropdown-toggle notranslate" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="selected-lang"><img src="/api/visitor/flags/br.png" title="Português" alt="Português">&nbsp;Português</span> <span class="caret">&nbsp;</span></a>
+						<ul class="dropdown-menu">
+							<li lang-option="pt" id="pt-option" class="active"><a class="notranslate" href="javascript:changeLanguage('pt')"><img src="/api/visitor/flags/br.png" title="Português" alt="Português">&nbsp;Português</a></li>
+							<li lang-option="en" id="en-option" class=""><a class="notranslate" href="javascript:changeLanguage('en')"><img src="/api/visitor/flags/gb.png" title="English" alt="English">&nbsp;English</a></li>
+							<li lang-option="es" id="es-option" class=""><a class="notranslate" href="javascript:changeLanguage('es')"><img src="/api/visitor/flags/es.png" title="Español" alt="Español">&nbsp;Español</a></li>
+							<li lang-option="fr" id="fr-option" class=""><a class="notranslate" href="javascript:changeLanguage('fr')"><img src="/api/visitor/flags/fr.png" title="Français" alt="Français">&nbsp;Français</a></li>
+							<li lang-option="de" id="de-option" class=""><a class="notranslate" href="javascript:changeLanguage('de')"><img src="/api/visitor/flags/de.png" title="Deutsch" alt="Deutsch">&nbsp;Deutsch</a></li>
+							<li lang-option="it" id="it-option" class=""><a class="notranslate" href="javascript:changeLanguage('it')"><img src="/api/visitor/flags/it.png" title="Italiano" alt="Italiano">&nbsp;Italiano</a></li>
+							<li lang-option="ru" id="ru-option" class=""><a class="notranslate" href="javascript:changeLanguage('ru')"><img src="/api/visitor/flags/ru.png" title="Pусский" alt="Pусский">&nbsp;Pусский</a></li>
+							<li lang-option="ja" id="ja-option" class=""><a class="notranslate" href="javascript:changeLanguage('ja')"><img src="/api/visitor/flags/jp.png" title="日本語" alt="日本語">&nbsp;日本語</a></li>
+							<li lang-option="zh-CN" id="zh-CN-option" class=""><a class="notranslate" href="javascript:changeLanguage('zh-CN')"><img src="/api/visitor/flags/cn.png" title="中文" alt="中文">&nbsp;中文</a></li>
+							<li lang-option="iw" id="iw-option" class=""><a class="notranslate" href="javascript:changeLanguage('iw')"><img src="/api/visitor/flags/il.png" title="עברית" alt="עברית">&nbsp;עברית</a></li>
+							<li lang-option="ar" id="ar-option" class=""><a class="notranslate" href="javascript:changeLanguage('ar')"><img src="/api/visitor/flags/sa.png" title="العربية" alt="العربية">&nbsp;العربية</a></li>
+							<li lang-option="el" id="el-option" class=""><a class="notranslate" href="javascript:changeLanguage('el')"><img src="/api/visitor/flags/gr.png" title="Ελληνικά" alt="Ελληνικά">&nbsp;Ελληνικά</a></li>
+							<li lang-option="eo" id="eo-option" class=""><a class="notranslate" href="javascript:changeLanguage('eo')"><img src="/api/visitor/flags/eo.png" title="Esperanto" alt="Esperanto">&nbsp;Esperanto</a></li>
+							<li class=""><a class="notranslate" target="_blank" href="https://translate.google.com/"><img src="/images/gtrans.png" title="Google Translate" alt="Google Translate" width="16">&nbsp;Powered by Google©</a></li>
+						</ul>
+					</li>
+				</ul>				
+ 			</div> 
+    		<script async src='https://cse.google.com/cse.js?cx=954bc4c5550392b18'></script><div class="gcse-searchbox-only"></div>
+ 		</div> 
+ 	</header>
+	<script src="/js/menu.min.js"></script>
+	<div id="dlgAdBlock" class="modal fade" data-backdrop="static" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title"><img src="/images/stop.png" alt="stop" title="Permitir Anúncios" width="40px">&nbsp;&nbsp;Permitir Anúncios</h4>
+				</div>
+				<div class="modal-body">
+					<p>Parece que que você está usando um bloqueador de anúncios.</p>
+					<p>A exibição de anúncios na Página Pessoal de Robson Martins é recomendada para que você tenha todas as informações de forma gratuita.</p>
+					<p>Por favor, desabilite a extensão de bloqueio de anúncios para o site <b>robsonmartins.com</b> e clique em "Permitir Anúncios".</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" onClick="window.location.href=window.location.href">Permitir Anúncios</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		function adBlockDetected() {
+			$('#dlgAdBlock').modal('show');
+		}
+		var ADS_URL = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function() {
+			if (xhr.readyState == XMLHttpRequest.DONE) {
+				if (xhr.status === 0 || xhr.responseURL !== ADS_URL) {
+					adBlockDetected();
+				}
+			}
+		};
+		xhr.open('HEAD', ADS_URL, true);
+		xhr.send(null);
+	</script>
+	<script>setMenuActive(-1);</script>
+	<article id="content" tabindex="-1" class="container-fluid">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3><img src="/images/error.png" title="Erro" alt="Erro" height="32">&nbsp;&nbsp;<span>Erro 404: P&aacute;gina n&atilde;o encontrada</span></h3>
+				</div>
+				<div class="panel-body">
+					<p>O recurso requisitado não foi encontrado.</p>
+					<p>&nbsp;</p>
+					<a href="/" class="btn btn-primary" role="button">Início</a>
+				</div>
+			</div>
+		</div>
+	</article>
+	<footer class="navbar navbar-fixed-bottom">
+		<div class="container-fluid panel-footer footer-panel social-bar"> 
+			<div class="pull-left">
+				<a id="link_facebook" target="_blank" href="#"><img class="btn-social" src="/images/facebook.png" alt="Perfil Facebook" title="Perfil Facebook"></a>
+				<a target="_blank" href="https://www.linkedin.com/in/robsonmartins"><img class="btn-social" src="/images/linkedin.png" alt="Perfil LinkedIn" title="Perfil LinkedIn"></a>
+				<a target="_blank" href="https://www.youtube.com/user/robsonsmar/videos"><img class="btn-social" src="/images/youtube.png" alt="Canal YouTube" title="Canal YouTube"></a>
+				<!-- <a href="< ?php echo ROOT?>error/disabled.php"><img class="btn-social" src="< ?php echo ROOT.'images/youtube.png'?>" alt="Canal YouTube" title="Canal YouTube"></a> -->
+				<a target="_blank" href="https://www.instagram.com/robsonmartins.com.br/"><img class="btn-social" src="/images/insta.png" alt="Perfil Instagram" title="Perfil Instagram"></a>
+				<!-- <a href="< ?php echo ROOT?>error/disabled.php"><img class="btn-social" src="< ?php echo ROOT.'images/insta.png'?>" alt="Perfil Instagram" title="Perfil Instagram"></a> -->
+				<a target="_blank" href="https://twitter.com/robsonsmar"><img class="btn-social" src="/images/twitter.png" alt="Perfil Twitter" title="Perfil Twitter"></a>
+				<a target="_blank" href="https://github.com/robsonsmartins"><img class="btn-social" src="/images/github.png" alt="Código no GitHub" title="Código no GitHub"></a>
+			</div>
+			<div id="info_visitor" class="pull-right visitor-panel" style="display:none">
+				<a id="link_local" href="/content/info/visitor"><img id="icon_ip" src="/api/visitor/flags/unknown.png" alt="Unknown" title="Unknown"></a>&nbsp;
+				<a id="link_os" href="/content/info/visitor"><img id="icon_os" src="/api/visitor/os/unknown.png" alt="Unknown" title="Unknown"></a>&nbsp;
+				<a id="link_brws" href="/content/info/visitor"><img id="icon_brws" src="/api/visitor/browser/unknown.png" alt="Unknown" title="Unknown"></a><br/>
+				<a id="link_ip" href="/content/info/visitor"><span id="label_ip" class="small-text">Unknown</span></a>&nbsp;
+			</div>
+			<div id="pnl_wait" class="pull-right visitor-panel">
+				<img style="border:0" src="/images/loading.gif" alt="Carregando..." title="Carregando..." width="20" height="20">
+			</div>
+		</div>
+		<div class="container-fluid panel-footer footer-panel status-bar"> 
+			<span class="small-text">Use Software Livre! © <a target="_blank" class="notranslate" href="/">Robson Martins</a> (2000-2024)</span>
+		</div>
+		<script src="https://ssl.google-analytics.com/ga.js"></script> 
+		<script>try {var pageTracker=_gat._getTracker("UA-3146452-2"); pageTracker._trackPageview();} catch(err){}</script> 
+	</footer>
+	<script src="/js/footer.min.js"></script>
+</body>
+</html>
